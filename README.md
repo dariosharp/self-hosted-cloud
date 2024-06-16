@@ -1,4 +1,4 @@
-# My Journey in Cloud self-hosting  Cloud
+# My Journey in Cloud self-hosting
 
 ### Table Of Contents
 - Introduction
