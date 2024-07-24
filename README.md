@@ -20,3 +20,5 @@ This blog is not about how to create a self-hostesd cloud, is about how my cosid
 ### About me
 I'm self-hosting appassionate with a strong backgound in cybersecurity. I have more than 10 yeas os experience in cybersecurity, I tested from cybersecurity prospective multiple applications, from hardware to cloud bases. 
 
+## Abstract
+An home cloud can provide the privacy and the configuration tha no other online solution can provide. After a long jorney I decide to use a single board computer, with two HDD of 4TB each in mirroring. The Cloud software is based on NextCloud and the NAS capability is handled using ZFS file system.
