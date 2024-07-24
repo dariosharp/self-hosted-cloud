@@ -28,6 +28,8 @@ There are multiple board solutions for NAS and cloud, e.g., Raspberry Pi 4/5 or 
 
 
 # How to chose the HDD
-2 and not 3?
+why 2 and not 3?
+
+Chossing the board was not very timing consuming, I just whatched some videos on youtube, and I foud my solution. Instead,the HDD choise was not easy, it required long time. 
 
 
