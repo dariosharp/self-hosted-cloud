@@ -1,5 +1,5 @@
 # Hardware
-My solution was composed by a single board computer and two Hard Disk Driver.
+My solution was composed by a single board computer and two Hard Disk Drive.
 
 ## Board
 My solution was the **ZimaBlade 7700 NAS Kit**, which incluses:
@@ -14,16 +14,20 @@ My solution was the **ZimaBlade 7700 NAS Kit**, which incluses:
 
 Costs: ~200€ (including Tax and spedition)
 
-## Hard Disk Driver
+## Hard Disk Drive
 
 I bought tow Seagate IronWolf Pro, 4TB, Hard Disk SATA da 6GBit/s, HDD, CMR 3,5" 7.200 RPM, Cache da 128 MB
 
 <img src="https://github.com/user-attachments/assets/a2df0e7b-d8cb-4781-9425-a5c941cf5025" alt="HDD" width="300" height="400">
 
+Costs: ~200€ each HDD (including Tax and spedition)
 
 
 # How to chose the Board
-
+There are multiple board solutions for NAS and cloud, e.g., Raspberry Pi 4/5 or Orange Pi, and all of them are good alternatives to the ZimaBlade. I decided to buy the ZimaBlade because it exposes two SATA interfaces. The processor is a 4-core Intel, and 16 GB of RAM can easily handle multiple instances of NextCloud. Unlike the other boards, ZimaBlade was developed specifically for NAS rather than for multiple IoT purposes, like the Raspberry Pi. Thus, the ZimaBlade was suitable for my cloud blade solution.
 
 
 # How to chose the HDD
+2 and not 3?
+
+
