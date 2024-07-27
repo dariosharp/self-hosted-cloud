@@ -21,4 +21,8 @@ This blog is not about how to create a self-hostesd cloud, is about how my cosid
 I'm self-hosting appassionate with a strong backgound in cybersecurity. I have more than 10 yeas os experience in cybersecurity, I tested from cybersecurity prospective multiple applications, from hardware to cloud bases. 
 
 ## Abstract
-An home cloud can provide the privacy and the configuration tha no other online solution can provide. After a long jorney I decide to use a single board computer, with two HDD of 4TB each in mirroring. The Cloud software is based on NextCloud and the NAS capability is handled using ZFS file system.
+An home cloud can provide the privacy and the configuration that no other online solutions can provide. After a long journey I decide to use a single board computer, with two 4TB HDDs each in mirroring. The Cloud software is based on NextCloud and the NAS capability is handled using ZFS filesystem. NextCloud is privacy oriented and ZFS is the most realiable filesystem availible. Additionally, the use of Ansible allows me to increse the reliability of the "rack".
+
+<img src="https://github.com/user-attachments/assets/cb3f97ec-f006-44e5-897d-2acc8aada9a1" alt="hardware" width="450" height="430">
+
+
