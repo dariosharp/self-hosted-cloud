@@ -4,10 +4,18 @@ So the two hardware elements to chose are:
  - The board (the computer), aim to manage all the software.
  - The disks, aim to manage all the data.
 
-# How to chose the Board
+# TOC
+ - Board
+   - My Board Solution
+ - Disks
+   - How to chose the correct RAID
+   - How to chose the Disks
+   - My disks solution
+
+# Board
 There are multiple board solutions for NAS and cloud, e.g., Raspberry Pi 4/5 or Orange Pi, and all of them are good alternatives to the ZimaBlade. I decided to buy the ZimaBlade because it exposes two SATA interfaces. The processor is a 4-core Intel, and 16 GB of RAM can easily handle multiple instances of NextCloud. Unlike the other boards, ZimaBlade was developed specifically for NAS rather than for multiple IoT purposes, like the Raspberry Pi. Thus, the ZimaBlade was suitable for my cloud blade solution.
 
-## Board
+## My Board solution
 My solution was the **ZimaBlade 7700 NAS Kit**, which incluses:
   - The board ZimaBlade 7700
   - 16 GB of RAM
@@ -21,8 +29,8 @@ My solution was the **ZimaBlade 7700 NAS Kit**, which incluses:
 Costs: ~200€ (including Tax and spedition)
 
 
-# How to chose the HDD
-Before to chose the HDD it is very important do decide how many HDD use, so the RIDE type to use.
+# Disks
+Chossing the board was not very timing consuming, I just whatched some videos on youtube, and I foud my solution. Instead,the HDD choise was not easy, it required long time. There are multiple thing to take in mind. Before to chose the disk it is very important do decide how many HDD use, so the RIDE type to use.
 
 ## How to chose the correct RAID
 The use of RAID configuration is very important to increase the reliability of the data. There are differet RAID configuration, but only two have to be noted: RAID 1 and RAID 5.
@@ -69,12 +77,8 @@ Cons of RAID 5:
 **Overall**: in case of failure on a disk, RAID 5 require a lot of time to duplicate data on a new HDD but the space is devide in 1/3.
 
 
-# Hard Disk Drive
-Chossing the board was not very timing consuming, I just whatched some videos on youtube, and I foud my solution. Instead,the HDD choise was not easy, it required long time. 
-Once decided the RAID it is also important to decide what type HDD buy. 
-
-## How to chose the HDD
-Even if HDD appear an easy task to chose, it is important to be carefoul and take in in mind a couple of thinks. 
+## How to chose the disks
+Once decided the RAID it time to decide what type HDD buy. Even if HDD appear an easy task to chose, it is important to be carefoul and take in in mind a couple of thinks. 
 - Fists the space: more TBs the HDD has more likely are failures. So it is generally not reccomanded to buy.
 - Second the tecnology: SSD or HDD? SSD is more expensive then HDD but reuire less energy and more reliable. I decide use HDD due to the price, SSD today is 2.5 time the price of HDD.
 - Third CMR vs SMR: 
@@ -90,13 +94,13 @@ Even if HDD appear an easy task to chose, it is important to be carefoul and tak
     
   Overall: HDDs CMR bought from different reseller garantee high standard reialability and a not expensive solution. 
 
-## HDD
+## My disks solution
 
 I bought tow Seagate IronWolf Pro, 4TB, Hard Disk SATA da 6GBit/s, HDD, CMR 3,5" 7.200 RPM, Cache da 128 MB
 
 <img src="https://github.com/user-attachments/assets/a2df0e7b-d8cb-4781-9425-a5c941cf5025" alt="HDD" width="300" height="400">
 
-Costs: ~200€ both HDDs (including Tax and spedition)
+Costs: ~200€ for both the HDDs, ~100€ each on amazon (including Tax and spedition)
 
 
 
