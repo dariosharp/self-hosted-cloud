@@ -7,21 +7,21 @@
 - Cloud configuration
 
 ## Introduction
-Creating a personal cloud is a long journey. It requires a lot of time to investigate which solution is best for you at the moment of creation. I explored multiple technologies, both hardware and software, to create my homemade cloud device based on my requirements. I decided to post my journey to help those who want to explore cloud self-hosting. Basically, this post is a guide for a younger version of myself looking for their solution. If I had had this post available, I would have had an easier path. Anyway, this journey has been very helpful for improving my skills and gaining an overview of a world that is not mine.
+Creating a personal cloud is a long journey that requires a lot of time to research and determine which solution is best for you at the time of creation. I explored multiple technologies, both hardware and software, to build my homemade cloud device based on my requirements. I decided to share my journey to help those who want to explore cloud self-hosting. Essentially, this post is a guide for a younger version of myself who was looking for their own solution. If I had had access to a post like this, my path would have been much easier. Regardless, this journey has been very helpful in improving my skills and gaining an overview of a field that is not my own.
 
 ### Rationale
-What I'm looking to create is a family cloud, where we can store photos or data with high reliability and integrity, for 4 or 5 people. The data must be reachable anywhere with a good user experience. Web applications and mobile applications for both Android and iOS must be available.
-A very important point is security. Nobody must be able to access the system; even the system administrator (me) must not be able to access other people's data.
-Moreover, price, the device must be "cheap" and must cousume less power as possible. 
+What I want to create is a family cloud where we can store photos and data with high reliability and integrity for 4 or 5 people. The data must be accessible from anywhere with a good user experience. Both web applications and mobile applications for Android and iOS should be available.
+A very important point is security. No one should be able to access the system without authorization, not even the system administrator (me) should have access to other people's data.
+Additionally, the device must be affordable and consume as little power as possible. 
 
 ### Consideration
-This blog is not about how to create a self-hostesd cloud, is about how my cosideration my experience aboud self hotest, which could help you to take the best solution for you enviroment. My choeses could not match your wish. From this experiments I learned multiple new technologies which is not common to use in my daly routene. So, I could makes mistekes, I'm not a cloud developer, even a developer.
+This blog is not a step-by-step guide on how to create a self-hosted cloud. Instead, it’s about sharing my considerations and experiences with self-hosting, which might help you find the best solution for your own environment. My choices might not align with your needs or preferences. Through these experiments, I learned about many new technologies that are not commonly part of my daily routine. So, I may have made mistakes—I'm not a cloud developer, or even a developer at all.
 
 ### About me
-I'm self-hosting appassionate with a strong backgound in cybersecurity. I have more than 10 yeas os experience in cybersecurity, I tested from cybersecurity prospective multiple applications, from hardware to cloud bases. 
+I’m passionate about self-hosting and have a strong background in cybersecurity. With over 10 years of experience in the field, I have tested a wide range of applications from a cybersecurity perspective, covering everything from hardware to cloud-based solutions.
 
 ## Abstract
-An home cloud can provide the privacy and the configuration that no other online solutions can provide. After a long journey I decide to use a single board computer, with two 4TB HDDs each in mirroring. The Cloud software is based on NextCloud and the NAS capability is handled using ZFS filesystem. NextCloud is privacy oriented and ZFS is the most realiable filesystem availible. Additionally, the use of Ansible allows me to increse the reliability of the "rack".
+A home cloud can offer the privacy and customization that no other online solutions can provide. After a long journey, I decided to use a single-board computer with two 4TB HDDs configured in a mirrored setup. The cloud software is based on Nextcloud, and NAS capabilities are managed using the ZFS filesystem. Nextcloud is privacy-oriented, and ZFS is one of the most reliable filesystems available. Additionally, using Ansible increases the reliability of the setup.
 
 <img src="https://github.com/user-attachments/assets/cb3f97ec-f006-44e5-897d-2acc8aada9a1" alt="hardware" width="450" height="430">
 
