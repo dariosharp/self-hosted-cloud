@@ -1,7 +1,7 @@
 # My Journey in Cloud self-hosting
 
 ### Table Of Contents
-- Introduction
+- [Introduction](#introduction)
 - Hardware
 - File-system
 - Cloud configuration
