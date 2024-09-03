@@ -4,7 +4,7 @@ My solution involves adopting Open Zettabyte File System (ZFS). ZFS is designed 
 
 # TOC
  - EXT4 vs XFS vs BtrFS vs ZFS
- - How to configure ZTF in mirroring
+ - How to configure ZTF
 
 
 # EXT4 vs XFS vs BtrFS vs ZFS
@@ -43,6 +43,21 @@ GNU/Linux is able to manage multiple file-system types. The most famous and used
 **Summarizing**:
 ZFS can detect corrupted files, supports RAID without the use of additional tools, and provides Copy-on-Write (CoW) and Snapshots. This makes ZFS very reliable and powerful for managing RAID and data that needs to be stored for a long time.
 
-# How to configure ZTF in mirroring
+# How to configure ZTF 
+Supposing you have bought the Zimablade (or a similar device) and want to use ZFS as the filesystem to manage mirroring two HDDs, you will need to read multiple documents carefully to configure the ZFS filesystem as effectively as possible.
+In a nutshell, the essential concepts you need to know about ZFS are as follows:
+- A group of HDDs is called a **Pool**; essentially, a pool is a RAID setup.
+- To access the pool, you need to create a **dataset**, which functions like a directory.
+
+There are multiple well-written documents about ZFS. I suggest reading all of them carefully:
+- A very good blog about how to use ZFS tools: https://briankoopman.com/moving/
+- Installation and how to use ZFS tools: https://wiki.archlinux.org/title/ZFS#Advanced_format_disks
+- Example how to create and configure ZFS: https://wiki.archlinux.org/title/ZFS/Virtual_disks
+- OpenZFS official documentation: https://openzfs.github.io/openzfs-docs/Project%20and%20Community/FAQ.html#performance-considerations
+
+In the link above, all the information needed to configure ZFS properly is provided. My recommendations are:
+- Enable compression during the pool creation; this will increase speed and extend HDD life.
+- Encryption is not necessary for this project, as Nextcloud can manage encryption.
+- Properly configure the dimensions of the HDD during pool creation; this will increase speed and extend HDD life.
 
 
