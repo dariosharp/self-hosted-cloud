@@ -29,12 +29,17 @@ GNU/Linux is able to manage multiple file-system types. The most famous and used
 | Checksum on metadata   |   ✅   |   ✅    |   ✅   |  ✅   |
 | Compression support    |   ❌   |   ❌    |   ✅   |  ✅   |
 | Filesystem encryption  |   ❌   |   ❌    |   ❌   |  ✅   |
-| Copy on Write          |   ❌   |   ✅    |   ✅   |  ✅   |
+| Copy-on-Write          |   ❌   |   ✅    |   ✅   |  ✅   |
 | Snapshots              |   ❌   |   ✅    |   ✅   |  ✅   |
 
 </div>
 
-**Some consideration**: There are multiple other comparison features that should be noted, but the ones listed above, in my opinion, are the most important.
+**Some consideration**: 
+- There are multiple other comparison features that should be noted, but the ones listed above, in my opinion, are the most important.
+- Checksum is used to detect if data or metadata is corrupted. Filesystems that do not support this feature are unable to detect if a file has been corrupted.
+- Copy-o-Write is a feature that prevents data from being overwritten. It is useful in case of a failure during writing. 
+- Logical volume manager means that the filesystem is able to manage RAID setups..
+
 
 # How to configure ZTF in mirroring
 
