@@ -29,7 +29,7 @@ A home cloud can offer the privacy and customization that no other online soluti
 </div>
 <br>
 <div align="center">
-<img src="https://github.com/user-attachments/assets/87a44740-90fc-4202-872f-5123173a6182" alt="software" width="700" height="450">
+<img src="https://github.com/user-attachments/assets/87a44740-90fc-4202-872f-5123173a6182" alt="software" width="900" height="450">
 <p><b>The web application</b></p>
 </div>
 <br>
