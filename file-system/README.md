@@ -40,6 +40,8 @@ GNU/Linux is able to manage multiple file-system types. The most famous and used
 - Copy-o-Write is a feature that prevents data from being overwritten. It is useful in case of a failure during writing. 
 - Logical volume manager means that the filesystem is able to manage RAID setups..
 
+**Summarizing**:
+ZFS can detect corrupted files, supports RAID without the use of additional tools, and provides Copy-on-Write (CoW) and Snapshots. This makes ZFS very reliable and powerful for managing RAID and data that needs to be stored for a long time.
 
 # How to configure ZTF in mirroring
 
