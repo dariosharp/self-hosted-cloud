@@ -28,4 +28,8 @@ Nextcloud is very stable and has a visually appealing interface. The "Memories" 
 </div>
 
 # NextCloud configuration
-There are multiple ways to install and use NextCloud, my solution is based on Docker. Docke is very powerfull tool that allows me to segragate in multiple safaty containers the various applications. Moreover, each container has the minimum packets to allow the application to run. This implementation is very powerfull as it is light and safe. 
+There are multiple ways to install and use NextCloud, my solution is based on Docker. Docke is very powerfull tool that allows me to segragate in multiple safaty containers the various applications. Moreover, each container has the minimum packets to allow the application to run. This implementation is very powerfull as it is light and safe. Here you can find the docker file configuration: [NextCloud Docker Configuration](https://github.com/dariosharp/self-hosted-cloud/tree/main/cloud-configuration/nextcloud-dockers)
+My configuration is composed by three different containers, the NextCloud application, the database and Nginx.
+- NextCloud container, as the name suggest, contains the NextCloud application.
+- The database container, as the name suggest, contains the mariadb database, used by NextCloud to handle all the information.
+- Nginx, instead the reverse proxy. Nginx is very powerfull and light reverse proxy, which allows to handle HTTPS, HTTP2 or 3 and subdomains. It is also able to log all the HTTP requests and combined with fail2ban can increase the security of the cloud.  
