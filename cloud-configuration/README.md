@@ -3,7 +3,7 @@ My cloud solution is composed of Nextcloud and Nginx for managing the applicatio
 
 # TOC
  - Cloud solutions comparison
- - Docker configuration
+ - NextCloud configuration
  - How to expose on the internet the cloud
  - Hardening
 
@@ -17,4 +17,15 @@ There are multiple applications for cloud interfacing. Most of them are very new
 ## Why NextCloud?
 Nextcloud is very stable and has a visually appealing interface. The "Memories" application is very nice and offers a user experience similar to Google Photos. Personally, I prefer the UI of Nextcloud and Immich compared to PhotoPrism and Piwigo. However, Immich is still in its early stages; the mobile application does not automatically upload photos when running in the background, forcing users to constantly remember to open the app to start the photo upload process. In contrast, the Nextcloud app automatically uploads images in the background. Additionally, Nextcloud allows the upload of arbitrary files and can be used for collaborative environments.
 
+<div align="center">
+<img src="https://github.com/user-attachments/assets/87a44740-90fc-4202-872f-5123173a6182" alt="software" width="900" height="450">
+<p><b>The web application</b></p>
+</div>
+<br>
+<div align="center">
+<img src="https://github.com/user-attachments/assets/c042980c-d090-4b56-bdb7-4a272bc7f08d" alt="moblie app" width="200" height="400">
+<p><b>The Mobile Application</b></p>
+</div>
 
+# NextCloud configuration
+There are multiple ways to install and use NextCloud, my solution is based on Docker. Docke is very powerfull tool that allows me to segragate in multiple safaty containers the various applications. Moreover, each container has the minimum packets to allow the application to run. This implementation is very powerfull as it is light and safe. 
